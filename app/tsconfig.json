@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "esnext",
+		"lib": ["es2020", "dom"],
+		"types":["node"],
+		"allowJs": true, // jsコンパイル用
+		"checkJs": true,  // js簡易型チェック
+		"sourceMap": true,
+		"inlineSources": true,
+		"outDir": "./dist/",
+		"noImplicitAny": true,
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node"
+	}
+}
